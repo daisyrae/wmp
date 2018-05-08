@@ -3,15 +3,12 @@ package org.bs.wmp.dao;
 import org.bs.wmp.domain.User;
 
 public interface UserMapper {
-    int deleteByPrimaryKey(Integer id);
+
+    User selectById(Integer id);
 
     int insert(User record);
 
-    int insertSelective(User record);
+    int update(User record);
 
-    User selectByPrimaryKey(Integer id);
-
-    int updateByPrimaryKeySelective(User record);
-
-    int updateByPrimaryKey(User record);
+    int deleteById(Integer id);
 }

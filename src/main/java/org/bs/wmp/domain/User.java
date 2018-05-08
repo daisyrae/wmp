@@ -1,23 +1,23 @@
 package org.bs.wmp.domain;
 
 public class User {
-    private Integer id;
+    private Integer id;//主键
 
-    private String account;
+    private String account;//账号
 
-    private String nick;
+    private String nick;//昵称
 
-    private Integer sex;
+    private Integer sex;//性别
 
-    private Integer phone;
+    private Integer phone;//电话
 
-    private String email;
+    private String email;//邮箱
 
-    private String avatar;
+    private String avatar;//头像
 
-    private String pwd;
+    private String pwd;//秘钥
 
-    private Integer status;
+    private Integer status;//状态
 
     public Integer getId() {
         return id;
